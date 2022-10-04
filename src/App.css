@@ -32,7 +32,60 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'Capsuula';
+  src: local('Capsuula'), url(./fonts/Capsuula.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Decomart';
+  src: local('Decomart'), url(./fonts/Decomart.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'bebas';
+  src: local('bebas'), url(./fonts/bebas.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'minimal';
+  src: local('minimal'), url(./fonts/minimal.ttf) format('truetype');
+}
+
+.corner {
+
+
+  top: 80%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-family: bebas;
+  font-weight: 500;
+
+}
+
+
+
+.parallax {
+  text-align: center;
+}
+
+.bigtext {
+  color: white;
+  font-size: 60px;
+  align-self: flex-start;
+}
+
+
+.subtext {
+  color: white;
+  font-size: 30px;
 }
